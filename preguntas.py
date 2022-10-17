@@ -47,7 +47,7 @@ def pregunta_02():
     """
 
     # Lea el archivo `gm_2008_region.csv` y asignelo al DataFrame `df`
-    df = pd.read_csv( ruta + 'gm_2008_region.csv', sep = ",", header = 0,)
+    df = pd.read_csv('gm_2008_region.csv', sep = ",", header = 0,)
 
     # Imprima las dimensiones del DataFrame
     print(df.shape)
